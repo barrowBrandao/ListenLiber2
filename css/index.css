@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav-bar {
+    background-color: white;
+}
+
+.img-logo {
+    width: 80%;
+    height: 10%;
+}
+
+.nav-link {
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+}
+
+.guria {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    position: relative;
+    left: 30%;
+}
+
+.elementos-home {
+    display: block;
+    position: relative;
+    left: 10%;
+    margin: auto;
+}
+
+.mensagem-home {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#main {
+    display: flex;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20%;
+}
+
+.btn-home {
+    border-radius: 10px;
+    border: none;
+    width: 350px;
+    height: 41px;
+    background: rgba(18, 10, 143, 0.80);
+    color: white;
+    margin-top: 15%;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 480px) {
+    .guria {
+        display: none;
+    }
+}
