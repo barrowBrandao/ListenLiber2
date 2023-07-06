@@ -2,6 +2,9 @@
     .guria {
         display: none;
     }
+    body {
+        background-color: white;
+    }
 
     .mensagem-home {
         font-size: 42px;
