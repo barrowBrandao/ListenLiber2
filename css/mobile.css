@@ -2,7 +2,8 @@
     .guria {
         display: none;
     }
-    body {
+    body, html {
+        overflow-x: hidden !important;
         background-color: white;
     }
 
