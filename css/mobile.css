@@ -7,7 +7,7 @@
     }
 
     .mensagem-home {
-        font-size: 42px;
+        font-size: 35px;
         font-weight: bold;
         margin-top: 70px;
     }
@@ -15,8 +15,5 @@
     .img-logo {
         width: 80%;
         height: 10%;
-        display: flex;
-        position: relative;
-        left: 90px;
     }
 }
