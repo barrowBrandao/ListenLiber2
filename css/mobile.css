@@ -2,6 +2,9 @@
     .guria {
         display: none;
     }
+    .guri {
+        display: none;
+    }
     body, html {
         background-color: white;
         margin: 4px;
@@ -16,5 +19,9 @@
     .img-logo {
         width: 80%;
         height: 10%;
+    }
+
+    .campo {
+        right: 25px;
     }
 }

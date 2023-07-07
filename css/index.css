@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -60,4 +61,78 @@ body {
     color: white;
     margin-top: 15%;
     font-weight: 700;
+}
+
+.guri {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    position: relative;
+    left: 12%;
+    bottom: 30px;
+}
+
+.campo {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    right: 50px;
+}
+
+label {
+    display: table-header-group;
+    align-self: baseline;
+    gap: 10px;
+    margin: 20px 8px 0px 3px;
+    color: black;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+
+input {
+    width: 300px;
+    height: 40px;
+    border: none;
+    display: flex;
+    background-color: #F1F1F1;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    gap: 10px;
+    font-size: 15px;
+
+
+}
+
+.btn-register {
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+    height: 35px;
+    background: rgba(18, 10, 143, 0.80);
+    color: white;
+    margin-top: 15%;
+    font-weight: 700;
+}
+
+#main-register {
+    display: flex;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 12%;
+}
+
+.title-register {
+    color: #120A8F;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
