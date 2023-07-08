@@ -1,7 +1,7 @@
 function linkRegister() {
-    window.open('register.html', '_self');
+    window.open('pages/register.html', '_self');
 }
 
 function home(){
-    window.open('index.html', '_self');
+    window.open('pages/index.html', '_self');
 }
