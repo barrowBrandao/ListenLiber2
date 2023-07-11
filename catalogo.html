@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/mobile.css">
+    <title>ListenLiber</title>
+</head>
+
+<body>
+    <nav class="navbar-expand-lg bg-body-tertiary">
+        <div class="navbar container-fluid" id="nav-bar-azul">
+            <a onclick="home()" class="navbar-brand" href="#"><img src="../images/logo-branco.png"
+                    alt="Logo ListenLiber" class="logo-branco"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <input class="search" type="search" placeholder="O que você quer ouvir">
+            </div>
+
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="74" height="72" viewBox="0 0 74 72" fill="none"
+                    class="icon-perfil">
+                    <path
+                        d="M37.0001 6C19.9801 6 6.16675 19.44 6.16675 36C6.16675 52.56 19.9801 66 37.0001 66C54.0201 66 67.8334 52.56 67.8334 36C67.8334 19.44 54.0201 6 37.0001 6ZM37.0001 18C42.9509 18 47.7918 22.71 47.7918 28.5C47.7918 34.29 42.9509 39 37.0001 39C31.0492 39 26.2084 34.29 26.2084 28.5C26.2084 22.71 31.0492 18 37.0001 18ZM37.0001 60C30.7409 60 23.3409 57.54 18.0684 51.36C23.4692 47.2372 30.1354 44.9964 37.0001 44.9964C43.8648 44.9964 50.531 47.2372 55.9317 51.36C50.6592 57.54 43.2592 60 37.0001 60Z"
+                        fill="white" />
+                </svg>
+            </div>
+            <br>
+        </div>
+        <div class="category" style="background-color: #120A8F;">
+            <div class="-collapse navbar-collapse justify-content-end" style="background-color: #120A8F;">
+                    <select name="Navegue por categoria" id="category" value="Navegue por categoria">
+                        <option class="valor1" value="0">Navegue por categoria</option>
+                        <option value="2">Romance</option>
+                        <option value="3">Suspense</option>
+                        <option value="4">Distopia</option>
+                        <option value="5">Terror</option>
+                    </select>
+            </div>
+
+            <h6 style="color: white;">Como funciona o ListenLiber?</h6>
+        </div>
+    </nav>
+
+
+
+
+
+    <script src="js/index.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
